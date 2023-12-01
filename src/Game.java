@@ -14,7 +14,7 @@ public class Game extends JFrame {
         JPanel board = new Board();
         add(board, BorderLayout.CENTER);
         // Add your logo
-        ImageIcon logo = new ImageIcon("C:\\Users\\C.N.P\\Desktop\\Nuclear Launch Code\\Snake Game\\src\\resources\\snake.png"); // replace with your logo file path
+        ImageIcon logo = new ImageIcon("src/resources/snake.png"); // replace with your logo file path
         setIconImage(logo.getImage());
         pack();
         setResizable(false); 
